@@ -57,9 +57,9 @@ Mathematically it is defined as <br><br>
 
 During our experiments, we generate the following visuals to understand the internals of thermodynamics length:
 <img width="1196" height="600" alt="image" src="https://github.com/user-attachments/assets/aa25dc34-ffde-48be-b0a4-86aa9c2a1e0c" />
-<img width="877" height="600" alt="image" src="https://github.com/user-attachments/assets/2ef85314-6e4a-4937-952d-3e2c81c3d816" />
-<img width="763" height="600" alt="image" src="https://github.com/user-attachments/assets/4ab935fc-ae44-481c-8181-978893c4c2b5" />
-<img width="702" height="600" alt="image" src="https://github.com/user-attachments/assets/3859345a-d6e0-494e-a44d-d7511e62b427" />
+<img width="1196" height="600" alt="image" src="https://github.com/user-attachments/assets/2ef85314-6e4a-4937-952d-3e2c81c3d816" />
+<img width="1196" height="600" alt="image" src="https://github.com/user-attachments/assets/4ab935fc-ae44-481c-8181-978893c4c2b5" />
+<img width="1196" height="600" alt="image" src="https://github.com/user-attachments/assets/3859345a-d6e0-494e-a44d-d7511e62b427" />
 <br><br>
 
 <img width="1047" height="517" alt="image" src="https://github.com/user-attachments/assets/e432dba5-bd48-423b-867a-7318bc3aec49" />
