@@ -1,5 +1,5 @@
  ![ndna_logo_v5.jpg](https://github.com/user-attachments/assets/e093b2ec-4918-4622-a3c0-7d86d8e98db3)
-# <p align="center">Neural Genomics (The nDNA) </p>
+# <p align="center"> Neural DNA (nDNA) </p>
 
 ## A research project representing a unified framework combining Spectral Curvature Analysis, Thermodynamics Signature, and Belief Vector Dynamics for evaluating semantic complexity in Transformer based Deep Neural Network(NN) or Large Language Models (LLMs)
 
