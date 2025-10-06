@@ -11,8 +11,8 @@ This comprehensive readme file provides analysis of various LLMs on SQuAD 2.0 da
 
 Our unified framework is based on three pillars that establishes three fundamental metrics that collectively characterize the information processing landscape of Deep Neural Network in modern LLMs.<br>
 
-► 1. **_Spectral Curvature_ (κℓ)**: Quantifies geometric properties of the parameter manifold <br><br>
-► 2. **_Thermodynamic Length_ (Lℓ)**: Measures information processing complexity via Fisher-Rao distances <br><br>
+► 1. **_Spectral Curvature_ ($κℓ$)**: Quantifies geometric properties of the parameter manifold <br><br>
+► 2. **_Thermodynamic Length_ ($Lℓ$)**: Measures information processing complexity via Fisher-Rao distances <br><br>
 ► 3. **_Belief Vector Dynamics_**: Captures epistemic confidence and uncertainty propagation <br><br>
 
 <img width="1276" height="663" alt="image" src="https://github.com/user-attachments/assets/a4be9afd-cac8-4aba-ae3a-10216dacb4a0" />
@@ -31,7 +31,6 @@ where
 
 **Thermodynamic length(Lℓ)** at layers is defined as the amount of semantic effort needed to move a token from layer(l) to layer (L+1)
 
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/09e72306-af42-40cf-9490-f42c9d4f7d6e" />
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/09e72306-af42-40cf-9490-f42c9d4f7d6e" />
 <img width="1095" height="205" alt="image" src="https://github.com/user-attachments/assets/32346f7d-e6fb-4f3d-9209-cd871e99bbb3" />
 
