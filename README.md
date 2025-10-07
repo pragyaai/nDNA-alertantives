@@ -40,7 +40,7 @@ We have used **SQuAD 2.0** (https://huggingface.co/datasets/rajpurkar/squad_v2) 
 
 # Models Evaluated
 
-Throughput our work, we used the following models to prove our hypothesis:
+Throughout our work, we used the following foundational LLMs to prove our hypothesis:
 
 **► Dense transformers** (e.g., LLaMA-2 base/instruct, LLaMA-3 3B base/instruct, Gemma, Falcon, GPT-NeoX, DialoGPT-medium, GPT-2)<br>
 **► Sparse mixture-of-expert** designs (e.g., Mixtral expert variants)<br>
