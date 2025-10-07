@@ -17,9 +17,9 @@ The **Spectral metrics (αℓ, κℓ)** capture geometry, **thermodynamic length
 
 # Mathematical Foundation:
 
-## **Spectral Curvature Analysis (κℓ):** A ramp up of Power-Law exponent will increase the Latent Binding in higher decoder layers, signaling sharper representational semantics.
+## **► 1. Spectral Curvature Analysis (κℓ):** <br>
 
-Spectral curvature at layer $\ell$ is defined as:
+A ramp up of Power-Law exponent will increase the Latent Binding in higher decoder layers, signaling sharper representational semantics. Spectral curvature at layer $\ell$ is defined as:
 
 $$
 \kappa_\ell := \big\| \Delta^2 h_\ell \big\| = \big\| h_{\ell+1} - 2 h_\ell + h_{\ell-1} \big\|
@@ -33,9 +33,11 @@ $$
 
 where $s$ parameterizes depth through the network. Discrete $\kappa_\ell$ provides a practical, layerwise estimator.
 
-## **Thermodynamic length(Lℓ) Analysis** : It is defined by Fisher geometry that quantifies semantic effort needed to move a token from layer(l) to layer (l+1).
+<img src="spectral_3d.gif" width="600" height="700" alt="3D Thermodynamics GIF" />
 
-*Thermodynamic length offers a window onto the model’s "latent energy budget" — illuminating how internal belief states reshape to meet complexity, constraint, and context.*
+## **► 2. Thermodynamic length(Lℓ) Analysis** : <br> 
+
+It is defined by Fisher geometry that quantifies semantic effort needed to move a token from layer(l) to layer (l+1). Thermodynamic length offers a window onto the model’s "latent energy budget" — illuminating how internal belief states reshape to meet complexity, constraint, and context.
 
 ---
 
@@ -88,7 +90,6 @@ Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief mani
 
 <img src="thermodynamics_3d.gif" width="600" height="700" alt="3D Thermodynamics GIF" />
 <img src="thermodynamics.png" width="600" height="400" alt="3D Thermodynamics GIF" />
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/thermodynamics_3d.gif" />
 <img width="1095" height="205" alt="image" src="https://github.com/user-attachments/assets/32346f7d-e6fb-4f3d-9209-cd871e99bbb3" />
 <br><br>
 
@@ -101,7 +102,7 @@ During our experiments, we generate the following visuals to understand the inte
 <img width="1196" height="600" alt="image" src="https://github.com/user-attachments/assets/3859345a-d6e0-494e-a44d-d7511e62b427" />
 <br><br>
 
-## **Belief Factors Calculation** : <br>
+## **► 3. Belief Factors Calculation** : <br>
 In **differential geometry** and **physics**, a *vector field* describes a directional force applied at each point of a space. Inspired by this, the **Belief Vector Field** models the *directional semantic force* that a specific culture or value system exerts on a model’s latent representations. It encodes *where*, *how strongly*, and *in what direction* cultural priors act within the model’s internal geometry—functioning as a **semantic compass** through the latent manifold.<br>
 
 <img src="belief_vector_field_healthy_static_annotated.png" width="900" height="1200" alt="3D Thermodynamics GIF" />
