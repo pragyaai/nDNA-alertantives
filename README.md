@@ -112,22 +112,22 @@ Throughout our work, we used the following foundational LLMs to prove our hypoth
 
 ## **► Dense transformers** <br>
 ##### 1. LLaMA-2 base (https://huggingface.co/docs/transformers/en/model_doc/llama2)<br>
-##### 2. LLaMA-2 instruct(https://huggingface.co/upstage/Llama-2-70b-instruct)<br>
-##### 3. LLaMA-3 3B base(https://huggingface.co/meta-llama/Llama-3.2-3B)<br>
-##### 4. LLaMA-3 3B instruct(https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
+##### 2. LLaMA-2 instruct (https://huggingface.co/upstage/Llama-2-70b-instruct)<br>
+##### 3. LLaMA-3 3B base (https://huggingface.co/meta-llama/Llama-3.2-3B)<br>
+##### 4. LLaMA-3 3B instruct (https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
 ##### 5. Gemma 7B (https://huggingface.co/google/gemma-7b)<br> 
-##### 6. Falcon(https://huggingface.co/docs/transformers/en/model_doc/falcon#transformers.FalconModel)<br>
-##### 7. GPT-2(https://huggingface.co/openai-community/gpt2)<br>
-##### 8. GPT-NeoX(https://huggingface.co/EleutherAI/gpt-neox-20b)<br>
-##### 9. DialoGPT-medium(https://huggingface.co/microsoft/DialoGPT-medium))<br><br>
+##### 6. Falcon (https://huggingface.co/docs/transformers/en/model_doc/falcon#transformers.FalconModel)<br>
+##### 7. GPT-2 (https://huggingface.co/openai-community/gpt2)<br>
+##### 8. GPT-NeoX (https://huggingface.co/EleutherAI/gpt-neox-20b)<br>
+##### 9. DialoGPT-medium (https://huggingface.co/microsoft/DialoGPT-medium))<br><br>
 ## **► Sparse mixture-of-expert** <br>
 ##### 1. Mixtral expert variants (https://huggingface.co/mistralai/Mixtral-8x7B-v0.1))<br><br>
 ## **► Multilingual and culturally calibrated models**<br>
-##### 1. Qwen2.5 base(https://huggingface.co/Qwen/Qwen2.5-72B)<br>
-##### 2. Qwen2.5 instruct(https://huggingface.co/unsloth/Qwen2.5-7B-Instruct))<br><br>
+##### 1. Qwen2.5 base (https://huggingface.co/Qwen/Qwen2.5-72B)<br>
+##### 2. Qwen2.5 instruct (https://huggingface.co/unsloth/Qwen2.5-7B-Instruct))<br><br>
 ## **► Compact efficient architectures** <br>
-##### 1. Phi-2 base(https://huggingface.co/microsoft/phi-2)
-##### 2. Phi-2 instruct(https://huggingface.co/venkycs/phi-2-instruct)
-##### 3. TinyLLaMA(https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0))<br><br>
+##### 1. Phi-2 base (https://huggingface.co/microsoft/phi-2)
+##### 2. Phi-2 instruct (https://huggingface.co/venkycs/phi-2-instruct)
+##### 3. TinyLLama (https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0))<br><br>
 
 # Installation Instructions:
