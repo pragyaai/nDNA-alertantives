@@ -57,27 +57,33 @@ This quantity measures how much the model must *adjust its parameters locally* a
 > = |\mathcal{D}| \, \mathbb{E}_{x \sim \mathcal{D}} \big\| \nabla_\theta \log p_\ell(x) \big\|^2
 > $$
 
-This formulation reveals that $$ \mathcal{L}_\ell $$ captures both the *average local effort* and its scaling with dataset size.  
-
-Furthermore, in differential geometric terms, thermodynamic length can be written as a path energy:
+This formulation reveals that
 
 $$
-\mathcal{L}_\ell = \int_{\gamma_\ell} 
-\left\langle \frac{d h_\ell}{ds}, 
-\mathcal{G}_{\mathrm{Fisher}}(h_\ell)
-\frac{d h_\ell}{ds} \right\rangle ds
+\mathcal{L}_\ell
 $$
 
-where 
+captures both the *average local effort* and its scaling with dataset size.
+
+where
 
 $$
-h_\ell denotes latent trajectories at layer $\ell$ $$,  
+h_\ell
+$$ 
+
+denotes latent trajectories at layer $\ell$,
 
 $$
-\mathcal{G}_{\mathrm{Fisher}} the Fisher information metric $$, and  
+\mathcal{G}_{\mathrm{Fisher}}
+$$ 
+
+is the Fisher information metric, and
 
 $$
-s arc length along $\gamma_\ell$ $$.
+s
+$$
+
+is the arc length along $\gamma_\ell$.
 
 Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief manifold* — capturing how much *"heat"* or computational work is generated to reconcile prior belief state with new input at depth $\ell$.
 
