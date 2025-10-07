@@ -77,10 +77,16 @@ $$
 denotes latent trajectories at layer $\ell$,  
 
 $$
-\mathcal{G}_{\mathrm{Fisher}} is the Fisher information metric, $$ and  
+\mathcal{G}_{\mathrm{Fisher}}
+$$ 
+
+the Fisher information metric, and  
 
 $$
-s is the arc length along $\gamma_\ell$. $$
+s
+$$ 
+
+arc length along $\gamma_\ell$.
 
 Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief manifold* — capturing how much *"heat"* or computational work is generated to reconcile prior belief state with new input at depth $\ell$.
 
