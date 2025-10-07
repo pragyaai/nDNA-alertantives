@@ -47,8 +47,7 @@ $$
 \big\| \nabla_\theta \log p_\ell(x) \big\|^2
 $$
 
-This quantity measures how much the model must *adjust its parameters locally* at layer $\ell$ to improve its fit to input $x$.  
-*Thermodynamic length at layer $\ell$* aggregates this cost across the dataset $\mathcal{D}$:
+This quantity measures how much the model must *adjust its parameters locally* at layer $\ell$ to improve its fit to input $x$.
 
 > **Thermodynamic length at layer $\ell$ is defined as:**
 >
@@ -87,8 +86,9 @@ is the arc length along $\gamma_\ell$.
 
 Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief manifold* — capturing how much *"heat"* or computational work is generated to reconcile prior belief state with new input at depth $\ell$.
 
-
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/09e72306-af42-40cf-9490-f42c9d4f7d6e" />
+<img src="thermodynamics_3d.gif" width="600" height="700" alt="3D Thermodynamics GIF" />
+<img src="thermodynamics.png" width="600" height="400" alt="3D Thermodynamics GIF" />
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/thermodynamics_3d.gif" />
 <img width="1095" height="205" alt="image" src="https://github.com/user-attachments/assets/32346f7d-e6fb-4f3d-9209-cd871e99bbb3" />
 <br><br>
 
@@ -101,9 +101,10 @@ During our experiments, we generate the following visuals to understand the inte
 <img width="1196" height="600" alt="image" src="https://github.com/user-attachments/assets/3859345a-d6e0-494e-a44d-d7511e62b427" />
 <br><br>
 
-<img width="1047" height="517" alt="image" src="https://github.com/user-attachments/assets/e432dba5-bd48-423b-867a-7318bc3aec49" />
+## **Belief Factors Calculation** : <br>
+In **differential geometry** and **physics**, a *vector field* describes a directional force applied at each point of a space. Inspired by this, the **Belief Vector Field** models the *directional semantic force* that a specific culture or value system exerts on a model’s latent representations. It encodes *where*, *how strongly*, and *in what direction* cultural priors act within the model’s internal geometry—functioning as a **semantic compass** through the latent manifold.<br>
 
-## **Belief Factors Calculation**
+<img src="belief_vector_field_healthy_static_annotated.png" width="900" height="1200" alt="3D Thermodynamics GIF" />
 
 # Datasets Used
 
