@@ -5,7 +5,7 @@
 
 # nDNA Calculation:
 
-Our unified framework is based on three pillars that establishes three fundamental metrics that collectively characterize the information processing landscape of Deep Neural Network in modern LLMs.<br>
+Our unified framework establishes three fundamental metrics that collectively characterize the information processing landscape of Deep Neural Network in modern LLMs.<br>
 
 **► 1. _Spectral Curvature_ ($κℓ$)**: Quantifies geometric properties of the parameter manifold <br><br>
 **► 2. _Thermodynamic Length_ ($Lℓ$)**: Measures information processing complexity via Fisher-Rao distances <br><br>
