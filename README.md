@@ -17,20 +17,20 @@ The **Spectral metrics (αℓ, κℓ)** capture geometry, **thermodynamic length
 
 # Mathematical Foundation:
 
-## **Spectral Curvature Analysis (κℓ):**
+## **Spectral Curvature Analysis (κℓ):** A ramp up of Power-Law exponent will increase the Latent Binding in higher decoder layers, signaling sharper representational semantics.
                         
 # <p align="center"> <img width="700" height="250" alt="image" src="https://github.com/user-attachments/assets/cf9d0f56-c8e5-4dbb-aea8-3a667003d4e1" /> </p>
 where 
  s = parameterizes depth through the network. 
  Our discrete **(κℓ)** provides a practical, layerwise estimator
 
-## **Thermodynamic length(Lℓ) Analysis** 
+## **Thermodynamic length(Lℓ) Analysis** It is defined by Fisher geometry that quantifies semantic effort needed to move a token from layer(l) to layer (l+1).
 
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/09e72306-af42-40cf-9490-f42c9d4f7d6e" />
 <img width="1095" height="205" alt="image" src="https://github.com/user-attachments/assets/32346f7d-e6fb-4f3d-9209-cd871e99bbb3" />
 <br><br>
 
-It is defined as the amount of semantic effort needed to move a token from layer(l) to layer (L+1). It quantifies the epistemic work performed across transformer layers, calculated as the cumulative squared gradient norm of layerwise log-likelihoods. Higher values signal internal resistance–zones of significant restructuring, belief compression, or negotiation of conflicting priors. In culturally fine-tuned models, these peaks localize to upper decoder layers, indicating intense adaptation near output-generating blocks. Within the nDNA construct, **Lℓ** helps reveal latent epistemic effort that underlies surface-level behavior. This metric thus provides a nuanced window into where and how models internally allocate effort during learning and inference. <br><br>
+It quantifies the epistemic work performed across transformer layers, calculated as the cumulative squared gradient norm of layerwise log-likelihoods. Higher values signal internal resistance–zones of significant restructuring, belief compression, or negotiation of conflicting priors. In culturally fine-tuned models, these peaks localize to upper decoder layers, indicating intense adaptation near output-generating blocks. Within the nDNA construct, **Lℓ** helps reveal latent epistemic effort that underlies surface-level behavior. This metric thus provides a nuanced window into where and how models internally allocate effort during learning and inference. <br><br>
 Mathematically it is defined as <br><br>
 <img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/7b09d118-3612-4250-bcf3-636a6fc99594" />
 
