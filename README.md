@@ -31,11 +31,59 @@ $$
 \kappa(s) = \left\| \frac{d^2 h(s)}{ds^2} \right\|
 $$
 
-where $s$ parameterizes depth through the network.  
-Our discrete $\kappa_\ell$ provides a practical, layerwise estimator.
-s = parameterizes depth through the network. 
+where $s$ parameterizes depth through the network. Discrete $\kappa_\ell$ provides a practical, layerwise estimator.
 
-## **Thermodynamic length(Lℓ) Analysis** It is defined by Fisher geometry that quantifies semantic effort needed to move a token from layer(l) to layer (l+1).
+## **Thermodynamic length(Lℓ) Analysis** : It is defined by Fisher geometry that quantifies semantic effort needed to move a token from layer(l) to layer (l+1).
+
+*Thermodynamic length offers a window onto the model’s "latent energy budget" — illuminating how internal belief states reshape to meet complexity, constraint, and context.*
+
+---
+
+**Formulation**  
+Let $p_\ell(y|x)$ denote the model’s conditional distribution at layer $\ell$ given input $x$.  
+The local epistemic cost is reflected in the squared norm of the gradient of log-likelihood with respect to model parameters:
+
+$$
+\big\| \nabla_\theta \log p_\ell(x) \big\|^2
+$$
+
+This quantity measures how much the model must *adjust its parameters locally* at layer $\ell$ to improve its fit to input $x$.  
+*Thermodynamic length at layer $\ell$* aggregates this cost across the dataset $\mathcal{D}$:
+
+> **Thermodynamic length at layer $\ell$ is defined as:**
+>
+> $$
+> \mathcal{L}_\ell := \sum_{x \in \mathcal{D}} \big\| \nabla_\theta \log p_\ell(x) \big\|^2
+> = |\mathcal{D}| \, \mathbb{E}_{x \sim \mathcal{D}} \big\| \nabla_\theta \log p_\ell(x) \big\|^2
+> $$
+
+This formulation reveals that $\mathcal{L}_\ell$ captures both the *average local effort* and its scaling with dataset size.  
+
+Furthermore, in differential geometric terms, thermodynamic length can be written as a path energy:
+
+$$
+\mathcal{L}_\ell = \int_{\gamma_\ell} 
+\left\langle \frac{d h_\ell}{ds}, 
+\mathcal{G}_{\mathrm{Fisher}}(h_\ell)
+\frac{d h_\ell}{ds} \right\rangle ds
+$$
+
+where 
+
+$$
+h_\ell
+$$ 
+
+denotes latent trajectories at layer $\ell$,  
+
+$$
+\mathcal{G}_{\mathrm{Fisher}} is the Fisher information metric, $$ and  
+
+$$
+s is the arc length along $\gamma_\ell$. $$
+
+Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief manifold* — capturing how much *"heat"* or computational work is generated to reconcile prior belief state with new input at depth $\ell$.
+
 
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/09e72306-af42-40cf-9490-f42c9d4f7d6e" />
 <img width="1095" height="205" alt="image" src="https://github.com/user-attachments/assets/32346f7d-e6fb-4f3d-9209-cd871e99bbb3" />
