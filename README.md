@@ -3,7 +3,7 @@
 
 ### <p align="center"> Webpage: https://pragyaai.github.io/ndna/llm/ndna/ </p>
 
-# Our Goals
+# Our Goals:
 **► 1. How alignment and instruction tuning inscribe persistent latent signatures, distinguishing inherited traits from semantic mutations.<br><br>
 ► 2. Whether architectural form (dense vs. MoE) yields distinct geometric adaptation patterns (e.g., localized vs. distributed reconfiguration).<br><br>
 ► 3. Whether compact models preserve latent genomic complexity or collapse toward lower-dimensional manifolds with flattened nDNA signatures.**
@@ -62,4 +62,4 @@ During our experiments, we generate the following visuals to understand the inte
 
 <img width="1047" height="517" alt="image" src="https://github.com/user-attachments/assets/e432dba5-bd48-423b-867a-7318bc3aec49" />
 
-
+# Installation Instructions:
