@@ -90,8 +90,6 @@ Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief mani
 <br><br>
 
 It quantifies the epistemic work performed across transformer layers, calculated as the cumulative squared gradient norm of layerwise log-likelihoods. Higher values signal internal resistance–zones of significant restructuring, belief compression, or negotiation of conflicting priors. In culturally fine-tuned models, these peaks localize to upper decoder layers, indicating intense adaptation near output-generating blocks. Within the nDNA construct, **Lℓ** helps reveal latent epistemic effort that underlies surface-level behavior. This metric thus provides a nuanced window into where and how models internally allocate effort during learning and inference. <br><br>
-Mathematically it is defined as <br><br>
-<img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/7b09d118-3612-4250-bcf3-636a6fc99594" />
 
 During our experiments, we generate the following visuals to understand the internals of thermodynamics length:
 <img width="1196" height="600" alt="image" src="https://github.com/user-attachments/assets/aa25dc34-ffde-48be-b0a4-86aa9c2a1e0c" />
@@ -112,9 +110,24 @@ We have used **SQuAD 2.0** (https://huggingface.co/datasets/rajpurkar/squad_v2) 
 
 Throughout our work, we used the following foundational LLMs to prove our hypothesis:
 
-**► Dense transformers** (e.g., LLaMA-2 base/instruct, LLaMA-3 3B base/instruct, Gemma, Falcon, GPT-NeoX, DialoGPT-medium, GPT-2)<br>
-**► Sparse mixture-of-expert** designs (e.g., Mixtral expert variants)<br>
-**► Multilingual and culturally calibrated models** (e.g., Qwen2.5 base/instruct)<br>
-**► Compact efficient architectures** (e.g., Phi-2, TinyLLaMA)<br>
+## **► Dense transformers** <br>
+##### 1. LLaMA-2 base (https://huggingface.co/docs/transformers/en/model_doc/llama2)<br>
+##### 2. LLaMA-2 instruct(https://huggingface.co/upstage/Llama-2-70b-instruct)<br>
+##### 3. LLaMA-3 3B base(https://huggingface.co/meta-llama/Llama-3.2-3B)<br>
+##### 4. LLaMA-3 3B instruct(https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
+##### 5. Gemma 7B (https://huggingface.co/google/gemma-7b)<br> 
+##### 6. Falcon(https://huggingface.co/docs/transformers/en/model_doc/falcon#transformers.FalconModel)<br>
+##### 7. GPT-2(https://huggingface.co/openai-community/gpt2)<br>
+##### 8. GPT-NeoX(https://huggingface.co/EleutherAI/gpt-neox-20b)<br>
+##### 9. DialoGPT-medium(https://huggingface.co/microsoft/DialoGPT-medium))<br><br>
+## **► Sparse mixture-of-expert** <br>
+##### 1. Mixtral expert variants (https://huggingface.co/mistralai/Mixtral-8x7B-v0.1))<br><br>
+## **► Multilingual and culturally calibrated models**<br>
+##### 1. Qwen2.5 base(https://huggingface.co/Qwen/Qwen2.5-72B)<br>
+##### 2. Qwen2.5 instruct(https://huggingface.co/unsloth/Qwen2.5-7B-Instruct))<br><br>
+## **► Compact efficient architectures** <br>
+##### 1. Phi-2 base(https://huggingface.co/microsoft/phi-2)
+##### 2. Phi-2 instruct(https://huggingface.co/venkycs/phi-2-instruct)
+##### 3. TinyLLaMA(https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0))<br><br>
 
 # Installation Instructions:
