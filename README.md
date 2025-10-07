@@ -18,11 +18,22 @@ The **Spectral metrics (αℓ, κℓ)** capture geometry, **thermodynamic length
 # Mathematical Foundation:
 
 ## **Spectral Curvature Analysis (κℓ):** A ramp up of Power-Law exponent will increase the Latent Binding in higher decoder layers, signaling sharper representational semantics.
-                        
-# <p align="center"> <img width="700" height="250" alt="image" src="https://github.com/user-attachments/assets/cf9d0f56-c8e5-4dbb-aea8-3a667003d4e1" /> </p>
-where 
- s = parameterizes depth through the network. 
- Our discrete **(κℓ)** provides a practical, layerwise estimator
+
+Spectral curvature at layer $\ell$ is defined as:
+
+$$
+\kappa_\ell := \big\| \Delta^2 h_\ell \big\| = \big\| h_{\ell+1} - 2 h_\ell + h_{\ell-1} \big\|
+$$
+
+In continuous form, this corresponds to:
+
+$$
+\kappa(s) = \left\| \frac{d^2 h(s)}{ds^2} \right\|
+$$
+
+where $s$ parameterizes depth through the network.  
+Our discrete $\kappa_\ell$ provides a practical, layerwise estimator.
+s = parameterizes depth through the network. 
 
 ## **Thermodynamic length(Lℓ) Analysis** It is defined by Fisher geometry that quantifies semantic effort needed to move a token from layer(l) to layer (l+1).
 
