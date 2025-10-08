@@ -35,7 +35,7 @@ where $s$ parameterizes depth through the network. Discrete $\kappa_\ell$ provid
 
 <p align="center">
   <a href="[src="https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/spectral_curvature_llama_ndna_animation.gif"](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/spectral_curvature_llama_ndna_animation.gif)">
-    <img src="assets/spectral_curvature_llama_ndna_animation.gif" width="600" height="700" />
+    <img src="assets/spectral_curvature_llama_ndna_animation.gif" width="1000" height="850" />
   </a>
   <br><em>Spectral Curvature visualization</em>
 </p>
@@ -96,14 +96,14 @@ Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief mani
 
 <p align="center">
   <a href="[https://pragyaai.github.io/ndna/thermodynamics_interactive.html](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/Final_thermodynamic_length.gif)">
-    <img src="assets/thermodynamics_3d.gif" width="600" height="700"" />
+    <img src="assets/thermodynamics_3d.gif" width="1000" height="850"" />
   </a>
   <br><em>Thermodynamic Length visualization</em>
 </p>
 
 <p align="center">
   <a href="[https://pragyaai.github.io/ndna/thermodynamic_length.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/thermodynamic_length.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/thermodynamic_length.gif))">
-    <img src="assets/thermodynamic_length.gif" width="600" height="700"" />
+    <img src="assets/thermodynamic_length.gif" width="1000" height="850"" />
   </a>
   <br><em>Thermodynamic Length accross Transformers Layers</em>
 </p>
