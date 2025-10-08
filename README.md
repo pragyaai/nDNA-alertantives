@@ -19,16 +19,7 @@ Our unified framework establishes three fundamental metrics that collectively ch
 **► 2. _Thermodynamic Length_ ($$L_{\ell}$$)**: Measures information processing complexity via Fisher-Rao distances <br><br>
 **► 3. _Belief Vector Dynamics_**: Captures epistemic confidence and uncertainty propagation <br><br>
 
-<img width="1276" height="663" alt="image" src="https://github.com/user-attachments/assets/a4be9afd-cac8-4aba-ae3a-10216dacb4a0" />
-
-<p align="center">
-  <a href="[https://pragyaai.github.io/ndna/thermodynamic_length.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/ndna_refined_story.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/ndna_refined_story.gif))">
-    <img src="assets/ndna_refined_story.gif" width="1200" height="950" />
-  </a>
-  <br><em>Overall Behaviour of all these metrics in modern LLMs</em>
-</p>
-
-The **Spectral metrics (αℓ, κℓ)** capture geometry, **thermodynamic length(Lℓ)** captures latent movement, and belief norm quantifies alignment strength of the model.
+The **Spectral metrics (αℓ, κℓ)** capture geometry, **Thermodynamic length(Lℓ)** captures latent movement, and **Belief Vector norm** quantifies alignment strength of the model.
 
 # Mathematical Foundation:
 
@@ -111,7 +102,7 @@ where $$h_{\ell}$$ denotes latent trajectories at layer $$\ell$$, $$G_{\text{Fis
 
 It quantifies the epistemic work performed across transformer layers, calculated as the cumulative squared gradient norm of layerwise log-likelihoods. Higher values signal internal resistance–zones of significant restructuring, belief compression, or negotiation of conflicting priors. In culturally fine-tuned models, these peaks localize to upper decoder layers, indicating intense adaptation near output-generating blocks. Within the nDNA construct, **$$L_{\ell}$$** helps reveal latent epistemic effort that underlies surface-level behavior. This metric thus provides a nuanced window into where and how models internally allocate effort during learning and inference. <br><br>
 
-## **► 3. Belief Factors Calculation** : <br>
+## **► 3. Belief Vector Calculation** : <br>
 In **differential geometry** and **physics**, a *vector field* describes a directional force applied at each point of a space. Inspired by this, the **Belief Vector Field** models the *directional semantic force* that a specific culture or value system exerts on a model’s latent representations. It encodes *where*, *how strongly*, and *in what direction* cultural priors act within the model’s internal geometry—functioning as a **semantic compass** through the latent manifold.<br>
 
 <p align="center">
@@ -125,9 +116,21 @@ In **differential geometry** and **physics**, a *vector field* describes a direc
   <img src="assets/belief_vector_field_healthy_static_annotated.png" width="900" height="1200" alt="Belief Vector Field" />
 </p>
 
+# Overall behaviour 
+
+<img width="1276" height="663" alt="image" src="https://github.com/user-attachments/assets/a4be9afd-cac8-4aba-ae3a-10216dacb4a0" />
+
+<p align="center">
+  <a href="[https://pragyaai.github.io/ndna/thermodynamic_length.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/ndna_refined_story.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/ndna_refined_story.gif))">
+    <img src="assets/ndna_refined_story.gif" width="1200" height="950" />
+  </a>
+  <br><em>Overall Behaviour of all these metrics in modern LLMs</em>
+</p>
+
+
 # Datasets Used
 
-We have used **SQuAD 2.0** [dataset](https://huggingface.co/datasets/rajpurkar/squad_v2) for our experiments and analysis of these metrics.
+For Spectral Culvature, Thermodynamic length, and Belief Vector calculation, we have used **[SQuAD 2.0](https://huggingface.co/datasets/rajpurkar/squad_v2)** for our experiments and analysis of these metrics.
 
 # Models Evaluated
 
