@@ -4,11 +4,14 @@
 
 # <p align="center"> Neural DNA: Latent Semantic Genome of Foundation Models </p>
 
-<p align="center">
-  <a href="https://pragyaai.github.io/ndna/llm/ndna/">Webpage</a>
-</p>
+<div align="center">
+  <a href="https://pragyaai.github.io/ndna/llm/ndna/" style="background:linear-gradient(135deg,#0078E7,#00C6FF);color:white;padding:10px 26px;border-radius:10px;text-decoration:none;margin:0 30px;box-shadow:0 4px 10px rgba(0,0,0,0.15);">🌐 Webpage</a>
+  <a href="https://www.youtube.com/@PragyaAI" style="background:linear-gradient(135deg,#FF0000,#FF4D4D);color:white;padding:10px 26px;border-radius:10px;text-decoration:none;margin:0 30px;box-shadow:0 4px 10px rgba(0,0,0,0.15);">🎥 YouTube</a>
+  <a href="https://arxiv.org/abs/2509.18216" style="background:linear-gradient(135deg,#333,#777);color:white;padding:10px 26px;border-radius:10px;text-decoration:none;margin:0 30px;box-shadow:0 4px 10px rgba(0,0,0,0.15);">📄 ArXiv</a>
+</div>
 
-# nDNA Calculation:
+
+# nDNA :
 
 Our unified framework establishes three fundamental metrics that collectively characterize the information processing landscape of Deep Neural Network in modern LLMs.<br>
 
@@ -152,6 +155,13 @@ Throughout our work, we used the following foundational LLMs to prove our hypoth
 ##### 1. [Phi-2 base](https://huggingface.co/microsoft/phi-2)  
 ##### 2. [Phi-2 instruct](https://huggingface.co/venkycs/phi-2-instruct)  
 ##### 3. [TinyLLama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)  
+
+<p align="center">
+  <a href="[https://pragyaai.github.io/ndna/belief_vector_field.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/gifs/15_llms/all.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/gifs/15_llms/all.gif))">
+    <img src="assets/all_LLms.gif" width="1100" height="900" />
+  </a>
+  <br><em>Belied Vector Field Evolution across Layers</em>
+</p>
 
 ---
 
