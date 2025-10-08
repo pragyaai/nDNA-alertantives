@@ -33,7 +33,7 @@ $$
 
 where $s$ parameterizes depth through the network. Discrete $\kappa_\ell$ provides a practical, layerwise estimator.
 
-<img src="spectral_3d.gif" width="600" height="700" alt="3D Thermodynamics GIF" />
+<img src="assets/spectral_3d.gif" width="600" height="700" alt="3D Thermodynamics GIF" />
 
 ## **► 2. Thermodynamic length(Lℓ) Analysis** : <br> 
 
@@ -88,8 +88,8 @@ is the arc length along $\gamma_\ell$.
 
 Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief manifold* — capturing how much *"heat"* or computational work is generated to reconcile prior belief state with new input at depth $\ell$.
 
-<img src="thermodynamics_3d.gif" width="600" height="700" alt="3D Thermodynamics GIF" />
-<img src="thermodynamics.png" width="600" height="400" alt="3D Thermodynamics GIF" />
+<img src="assets/thermodynamics_3d.gif" width="600" height="700" alt="3D Thermodynamics GIF" />
+<img src="assets/thermodynamics.png" width="600" height="400" alt="3D Thermodynamics GIF" />
 <img width="1095" height="205" alt="image" src="https://github.com/user-attachments/assets/32346f7d-e6fb-4f3d-9209-cd871e99bbb3" />
 <br><br>
 
@@ -105,7 +105,7 @@ During our experiments, we generate the following visuals to understand the inte
 ## **► 3. Belief Factors Calculation** : <br>
 In **differential geometry** and **physics**, a *vector field* describes a directional force applied at each point of a space. Inspired by this, the **Belief Vector Field** models the *directional semantic force* that a specific culture or value system exerts on a model’s latent representations. It encodes *where*, *how strongly*, and *in what direction* cultural priors act within the model’s internal geometry—functioning as a **semantic compass** through the latent manifold.<br>
 
-<img src="belief_vector_field_healthy_static_annotated.png" width="900" height="1200" alt="3D Thermodynamics GIF" />
+<img src="assets/belief_vector_field_healthy_static_annotated.png" width="900" height="1200" alt="3D Thermodynamics GIF" />
 
 # Datasets Used
 
