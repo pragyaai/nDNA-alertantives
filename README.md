@@ -33,7 +33,13 @@ $$
 
 where $s$ parameterizes depth through the network. Discrete $\kappa_\ell$ provides a practical, layerwise estimator.
 
-<img src="assets/spectral_3d.gif" width="600" height="700" alt="3D Thermodynamics GIF" />
+<p align="center">
+  <a href="[src="https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/spectral_curvature_llama_ndna_animation.gif"](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/spectral_curvature_llama_ndna_animation.gif)">
+    <img src="assets/spectral_curvature_llama_ndna_animation.gif" width="600" height="700" />
+  </a>
+  <br><em>Spectral Curvature visualization</em>
+</p>
+
 
 ## **► 2. Thermodynamic length(Lℓ) Analysis** : <br> 
 
@@ -88,8 +94,20 @@ is the arc length along $\gamma_\ell$.
 
 Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief manifold* — capturing how much *"heat"* or computational work is generated to reconcile prior belief state with new input at depth $\ell$.
 
-<img src="assets/thermodynamics_3d.gif" width="600" height="700" alt="3D Thermodynamics GIF" />
-<img src="assets/thermodynamics.png" width="600" height="400" alt="3D Thermodynamics GIF" />
+<p align="center">
+  <a href="[https://pragyaai.github.io/ndna/thermodynamics_interactive.html](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/Final_thermodynamic_length.gif)">
+    <img src="assets/thermodynamics_3d.gif" width="600" height="700"" />
+  </a>
+  <br><em>Thermodynamic Length visualization</em>
+</p>
+
+<p align="center">
+  <a href="[https://pragyaai.github.io/ndna/thermodynamic_length.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/thermodynamic_length.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/thermodynamic_length.gif))">
+    <img src="assets/thermodynamic_length.gif" width="600" height="700"" />
+  </a>
+  <br><em>Thermodynamic Length accross Transformers Layers</em>
+</p>
+
 <img width="1095" height="205" alt="image" src="https://github.com/user-attachments/assets/32346f7d-e6fb-4f3d-9209-cd871e99bbb3" />
 <br><br>
 
