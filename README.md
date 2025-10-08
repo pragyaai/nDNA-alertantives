@@ -168,4 +168,19 @@ Throughout our work, we used the following foundational LLMs to prove our hypoth
 ##### 2. Phi-2 instruct (https://huggingface.co/venkycs/phi-2-instruct)
 ##### 3. TinyLLama (https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0))<br><br>
 
-# Installation Instructions:
+---
+
+## Citation
+
+If you use nDNA in your research, please cite:
+
+```bibtex
+@misc{das2025ndnasemantichelix,
+  title={nDNA -- the Semantic Helix of Artificial Cognition}, 
+  author={Amitava Das},
+  year={2025},
+  eprint={2509.18216},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2509.18216}
+}
