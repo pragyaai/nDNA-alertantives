@@ -1,7 +1,12 @@
-# <p align="left"> ![ndna_logo_v5.jpg](https://github.com/user-attachments/assets/e093b2ec-4918-4622-a3c0-7d86d8e98db3)</p>
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/e093b2ec-4918-4622-a3c0-7d86d8e98db3" alt="ndna_logo_v5.jpg" width="1600" />
+</p>
+
 # <p align="center"> Neural DNA: Latent Semantic Genome of Foundation Models </p>
 
-### <p align="center"> Webpage: https://pragyaai.github.io/ndna/llm/ndna/ </p>
+<p align="center">
+  <a href="https://pragyaai.github.io/ndna/llm/ndna/">Webpage</a>
+</p>
 
 # nDNA Calculation:
 
@@ -119,31 +124,34 @@ In **differential geometry** and **physics**, a *vector field* describes a direc
 
 # Datasets Used
 
-We have used **SQuAD 2.0** (https://huggingface.co/datasets/rajpurkar/squad_v2) dataset for our experiments and analysis of these metrics.
+We have used **SQuAD 2.0** [dataset](https://huggingface.co/datasets/rajpurkar/squad_v2) for our experiments and analysis of these metrics.
 
 # Models Evaluated
 
 Throughout our work, we used the following foundational LLMs to prove our hypothesis:
 
-## **► Dense transformers** <br>
-##### 1. LLaMA-2 base (https://huggingface.co/docs/transformers/en/model_doc/llama2)<br>
-##### 2. LLaMA-2 instruct (https://huggingface.co/upstage/Llama-2-70b-instruct)<br>
-##### 3. LLaMA-3 3B base (https://huggingface.co/meta-llama/Llama-3.2-3B)<br>
-##### 4. LLaMA-3 3B instruct (https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
-##### 5. Gemma 7B (https://huggingface.co/google/gemma-7b)<br> 
-##### 6. Falcon (https://huggingface.co/docs/transformers/en/model_doc/falcon#transformers.FalconModel)<br>
-##### 7. GPT-2 (https://huggingface.co/openai-community/gpt2)<br>
-##### 8. GPT-NeoX (https://huggingface.co/EleutherAI/gpt-neox-20b)<br>
-##### 9. DialoGPT-medium (https://huggingface.co/microsoft/DialoGPT-medium))<br><br>
-## **► Sparse mixture-of-expert** <br>
-##### 1. Mixtral expert variants (https://huggingface.co/mistralai/Mixtral-8x7B-v0.1))<br><br>
-## **► Multilingual and culturally calibrated models**<br>
-##### 1. Qwen2.5 base (https://huggingface.co/Qwen/Qwen2.5-72B)<br>
-##### 2. Qwen2.5 instruct (https://huggingface.co/unsloth/Qwen2.5-7B-Instruct))<br><br>
-## **► Compact efficient architectures** <br>
-##### 1. Phi-2 base (https://huggingface.co/microsoft/phi-2)
-##### 2. Phi-2 instruct (https://huggingface.co/venkycs/phi-2-instruct)
-##### 3. TinyLLama (https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0))<br><br>
+## **► Dense transformers**  
+##### 1. [LLaMA-2 base](https://huggingface.co/docs/transformers/en/model_doc/llama2)  
+##### 2. [LLaMA-2 instruct](https://huggingface.co/upstage/Llama-2-70b-instruct)  
+##### 3. [LLaMA-3 3B base](https://huggingface.co/meta-llama/Llama-3.2-3B)  
+##### 4. [LLaMA-3 3B instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)  
+##### 5. [Gemma 7B](https://huggingface.co/google/gemma-7b)  
+##### 6. [Falcon](https://huggingface.co/docs/transformers/en/model_doc/falcon#transformers.FalconModel)  
+##### 7. [GPT-2](https://huggingface.co/openai-community/gpt2)  
+##### 8. [GPT-NeoX](https://huggingface.co/EleutherAI/gpt-neox-20b)  
+##### 9. [DialoGPT-medium](https://huggingface.co/microsoft/DialoGPT-medium)  
+
+## **► Sparse mixture-of-expert**  
+##### 1. [Mixtral expert variants](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)  
+
+## **► Multilingual and culturally calibrated models**  
+##### 1. [Qwen2.5 base](https://huggingface.co/Qwen/Qwen2.5-72B)  
+##### 2. [Qwen2.5 instruct](https://huggingface.co/unsloth/Qwen2.5-7B-Instruct)  
+
+## **► Compact efficient architectures**  
+##### 1. [Phi-2 base](https://huggingface.co/microsoft/phi-2)  
+##### 2. [Phi-2 instruct](https://huggingface.co/venkycs/phi-2-instruct)  
+##### 3. [TinyLLama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)  
 
 ---
 
