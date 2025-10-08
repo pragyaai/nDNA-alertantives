@@ -1,5 +1,5 @@
 # <p align="left"> ![ndna_logo_v5.jpg](https://github.com/user-attachments/assets/e093b2ec-4918-4622-a3c0-7d86d8e98db3)</p>
-# <p align="center"> Neural DNA - Cartograph: Latent Semantic Genome of Foundation Models </p>
+# <p align="center"> Neural DNA: Latent Semantic Genome of Foundation Models </p>
 
 ### <p align="center"> Webpage: https://pragyaai.github.io/ndna/llm/ndna/ </p>
 
@@ -7,8 +7,8 @@
 
 Our unified framework establishes three fundamental metrics that collectively characterize the information processing landscape of Deep Neural Network in modern LLMs.<br>
 
-**► 1. _Spectral Curvature_ ($κℓ$)**: Quantifies geometric properties of the parameter manifold <br><br>
-**► 2. _Thermodynamic Length_ ($Lℓ$)**: Measures information processing complexity via Fisher-Rao distances <br><br>
+**► 1. _Spectral Curvature_ ($$κ_{\ell}$$)**: Quantifies geometric properties of the parameter manifold <br><br>
+**► 2. _Thermodynamic Length_ ($$L_{\ell}$$)**: Measures information processing complexity via Fisher-Rao distances <br><br>
 **► 3. _Belief Vector Dynamics_**: Captures epistemic confidence and uncertainty propagation <br><br>
 
 <img width="1276" height="663" alt="image" src="https://github.com/user-attachments/assets/a4be9afd-cac8-4aba-ae3a-10216dacb4a0" />
@@ -24,7 +24,7 @@ The **Spectral metrics (αℓ, κℓ)** capture geometry, **thermodynamic length
 
 # Mathematical Foundation:
 
-## **► 1. Spectral Curvature Analysis (κℓ):** <br>
+## **► 1. Spectral Curvature Analysis ($$κ_{\ell}$$):** <br>
 
 A ramp up of Power-Law exponent will increase the Latent Binding in higher decoder layers, signaling sharper representational semantics. Spectral curvature at layer $\ell$ is defined as:
 
@@ -54,15 +54,14 @@ where $s$ parameterizes depth through the network. Discrete $\kappa_\ell$ provid
   <br><em>Spectral Curvature accross Transformers Layers</em>
 </p>
 
-## **► 2. Thermodynamic length(Lℓ) Analysis** : <br> 
+## **► 2. Thermodynamic length ($$L_{\ell}$$) Analysis** : <br> 
 
-It is defined by Fisher geometry that quantifies semantic effort needed to move a token from layer(l) to layer (l+1). Thermodynamic length offers a window onto the model’s "latent energy budget" — illuminating how internal belief states reshape to meet complexity, constraint, and context.
+It is defined by Fisher geometry that quantifies semantic effort needed to move a token from layer($$\ell$$) to layer ($$\ell$$+1). Thermodynamic length offers a window onto the model’s "latent energy budget" — illuminating how internal belief states reshape to meet complexity, constraint, and context.
 
 ---
 
 **Formulation**  
-Let $p_\ell(y|x)$ denote the model’s conditional distribution at layer $\ell$ given input $x$.  
-The local epistemic cost is reflected in the squared norm of the gradient of log-likelihood with respect to model parameters:
+Let $p_\ell(y|x)$ denote the model’s conditional distribution at layer $\ell$ given input $x$. The local epistemic cost is reflected in the squared norm of the gradient of log-likelihood with respect to model parameters:
 
 $$
 \big\| \nabla_\theta \log p_\ell(x) \big\|^2
@@ -70,42 +69,14 @@ $$
 
 This quantity measures how much the model must *adjust its parameters locally* at layer $\ell$ to improve its fit to input $x$.
 
-> **Thermodynamic length at layer $\ell$ is defined as:**
->
-> $$
-> \mathcal{L}_\ell := \sum_{x \in \mathcal{D}} \big\| \nabla_\theta \log p_\ell(x) \big\|^2
-> = |\mathcal{D}| \, \mathbb{E}_{x \sim \mathcal{D}} \big\| \nabla_\theta \log p_\ell(x) \big\|^2
-> $$
-
-This formulation reveals that
+**Thermodynamic length at layer $\ell$ is defined as:**
 
 $$
-\mathcal{L}_\ell
+\mathcal{L}_\ell := \sum_{x \in \mathcal{D}} \big\| \nabla_\theta \log p_\ell(x) \big\|^2
+= |\mathcal{D}| \, \mathbb{E}_{x \sim \mathcal{D}} \big\| \nabla_\theta \log p_\ell(x) \big\|^2
 $$
 
-captures both the *average local effort* and its scaling with dataset size.
-
-where
-
-$$
-h_\ell
-$$ 
-
-denotes latent trajectories at layer $\ell$,
-
-$$
-\mathcal{G}_{\mathrm{Fisher}}
-$$ 
-
-is the Fisher information metric, and
-
-$$
-s
-$$
-
-is the arc length along $\gamma_\ell$.
-
-Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief manifold* — capturing how much *"heat"* or computational work is generated to reconcile prior belief state with new input at depth $\ell$.
+This formulation reveals that $$L_\ell$$ captures both the *average local effort* and its scaling with dataset size. Here $$h_\ell$$ denotes latent trajectories at layer $\ell$, $$G_{\mathrm{Fisher}}$$ is the Fisher information metric, and $$s$$ is the arc length along $\gamma_\ell$. Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief manifold* — capturing how much *"heat"* or computational work is generated to reconcile prior belief state with new input at depth $\ell$.
 
 <p align="center">
   <a href="[https://pragyaai.github.io/ndna/thermodynamics_interactive.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/Final_thermodynamic_length.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/Final_thermodynamic_length.gif))">
@@ -121,10 +92,16 @@ Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief mani
   <br><em>Thermodynamic Length accross Transformers Layers</em>
 </p>
 
-<img width="1095" height="205" alt="image" src="https://github.com/user-attachments/assets/32346f7d-e6fb-4f3d-9209-cd871e99bbb3" />
-<br><br>
+This formulation reveals that $$L_{\ell}$$ captures both the *average local effort* and its scaling with dataset size. Furthermore, in differential geometric terms, thermodynamic length can be written as a path energy:
 
-It quantifies the epistemic work performed across transformer layers, calculated as the cumulative squared gradient norm of layerwise log-likelihoods. Higher values signal internal resistance–zones of significant restructuring, belief compression, or negotiation of conflicting priors. In culturally fine-tuned models, these peaks localize to upper decoder layers, indicating intense adaptation near output-generating blocks. Within the nDNA construct, **Lℓ** helps reveal latent epistemic effort that underlies surface-level behavior. This metric thus provides a nuanced window into where and how models internally allocate effort during learning and inference. <br><br>
+$$
+\mathcal{L}_{\ell} = \int_{\gamma_{\ell}} \left\langle \frac{d h_{\ell}}{d s}, \mathcal{G}_{\text{Fisher}}(h_{\ell}) \frac{d h_{\ell}}{d s} \right\rangle d s
+$$
+
+where $$h_{\ell}$$ denotes latent trajectories at layer $$\ell$$, $$G_{\text{Fisher}}$$ the Fisher information metric, and s arc length along $$\gamma_{\ell}$$. Thus, $$L_{\ell}$$ can be seen as an *energy integral over the belief manifold* – capturing how much internal *"heat"* or computational work is generated to reconcile prior belief state with new input at depth $$\ell$$.
+
+
+It quantifies the epistemic work performed across transformer layers, calculated as the cumulative squared gradient norm of layerwise log-likelihoods. Higher values signal internal resistance–zones of significant restructuring, belief compression, or negotiation of conflicting priors. In culturally fine-tuned models, these peaks localize to upper decoder layers, indicating intense adaptation near output-generating blocks. Within the nDNA construct, **$$L_{\ell}$$** helps reveal latent epistemic effort that underlies surface-level behavior. This metric thus provides a nuanced window into where and how models internally allocate effort during learning and inference. <br><br>
 
 ## **► 3. Belief Factors Calculation** : <br>
 In **differential geometry** and **physics**, a *vector field* describes a directional force applied at each point of a space. Inspired by this, the **Belief Vector Field** models the *directional semantic force* that a specific culture or value system exerts on a model’s latent representations. It encodes *where*, *how strongly*, and *in what direction* cultural priors act within the model’s internal geometry—functioning as a **semantic compass** through the latent manifold.<br>
