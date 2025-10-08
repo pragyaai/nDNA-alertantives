@@ -13,6 +13,13 @@ Our unified framework establishes three fundamental metrics that collectively ch
 
 <img width="1276" height="663" alt="image" src="https://github.com/user-attachments/assets/a4be9afd-cac8-4aba-ae3a-10216dacb4a0" />
 
+<p align="center">
+  <a href="[https://pragyaai.github.io/ndna/thermodynamic_length.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/ndna_refined_story.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/ndna_refined_story.gif))">
+    <img src="assets/ndna_refined_story.gif" width="1200" height="950" />
+  </a>
+  <br><em>Overall Behaviour of all these metrics in modern LLMs</em>
+</p>
+
 The **Spectral metrics (αℓ, κℓ)** capture geometry, **thermodynamic length(Lℓ)** captures latent movement, and belief norm quantifies alignment strength of the model.
 
 # Mathematical Foundation:
@@ -40,6 +47,12 @@ where $s$ parameterizes depth through the network. Discrete $\kappa_\ell$ provid
   <br><em>Spectral Curvature visualization</em>
 </p>
 
+<p align="center">
+  <a href="[https://pragyaai.github.io/ndna/thermodynamic_length.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/spectral_curvature.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/spectral_curvature.gif))">
+    <img src="assets/spectral_curvature.gif" width="1000" height="850" />
+  </a>
+  <br><em>Spectral Curvature accross Transformers Layers</em>
+</p>
 
 ## **► 2. Thermodynamic length(Lℓ) Analysis** : <br> 
 
@@ -112,13 +125,6 @@ Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief mani
 <br><br>
 
 It quantifies the epistemic work performed across transformer layers, calculated as the cumulative squared gradient norm of layerwise log-likelihoods. Higher values signal internal resistance–zones of significant restructuring, belief compression, or negotiation of conflicting priors. In culturally fine-tuned models, these peaks localize to upper decoder layers, indicating intense adaptation near output-generating blocks. Within the nDNA construct, **Lℓ** helps reveal latent epistemic effort that underlies surface-level behavior. This metric thus provides a nuanced window into where and how models internally allocate effort during learning and inference. <br><br>
-
-During our experiments, we generate the following visuals to understand the internals of thermodynamics length:
-<img width="1196" height="600" alt="image" src="https://github.com/user-attachments/assets/aa25dc34-ffde-48be-b0a4-86aa9c2a1e0c" />
-<img width="1196" height="600" alt="image" src="https://github.com/user-attachments/assets/2ef85314-6e4a-4937-952d-3e2c81c3d816" />
-<img width="1196" height="600" alt="image" src="https://github.com/user-attachments/assets/4ab935fc-ae44-481c-8181-978893c4c2b5" />
-<img width="1196" height="600" alt="image" src="https://github.com/user-attachments/assets/3859345a-d6e0-494e-a44d-d7511e62b427" />
-<br><br>
 
 ## **► 3. Belief Factors Calculation** : <br>
 In **differential geometry** and **physics**, a *vector field* describes a directional force applied at each point of a space. Inspired by this, the **Belief Vector Field** models the *directional semantic force* that a specific culture or value system exerts on a model’s latent representations. It encodes *where*, *how strongly*, and *in what direction* cultural priors act within the model’s internal geometry—functioning as a **semantic compass** through the latent manifold.<br>
