@@ -95,15 +95,15 @@ is the arc length along $\gamma_\ell$.
 Thus, $\mathcal{L}_\ell$ can be seen as an *energy integral over the belief manifold* — capturing how much *"heat"* or computational work is generated to reconcile prior belief state with new input at depth $\ell$.
 
 <p align="center">
-  <a href="[https://pragyaai.github.io/ndna/thermodynamics_interactive.html](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/Final_thermodynamic_length.gif)">
-    <img src="assets/thermodynamics_3d.gif" width="1000" height="850"" />
+  <a href="[https://pragyaai.github.io/ndna/thermodynamics_interactive.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/Final_thermodynamic_length.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/Final_thermodynamic_length.gif))">
+    <img src="assets/Final_thermodynamic_length.gif" width="1000" height="850" />
   </a>
   <br><em>Thermodynamic Length visualization</em>
 </p>
 
 <p align="center">
   <a href="[https://pragyaai.github.io/ndna/thermodynamic_length.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/thermodynamic_length.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/thermodynamic_length.gif))">
-    <img src="assets/thermodynamic_length.gif" width="1000" height="850"" />
+    <img src="assets/thermodynamic_length.gif" width="1000" height="850" />
   </a>
   <br><em>Thermodynamic Length accross Transformers Layers</em>
 </p>
@@ -123,7 +123,16 @@ During our experiments, we generate the following visuals to understand the inte
 ## **► 3. Belief Factors Calculation** : <br>
 In **differential geometry** and **physics**, a *vector field* describes a directional force applied at each point of a space. Inspired by this, the **Belief Vector Field** models the *directional semantic force* that a specific culture or value system exerts on a model’s latent representations. It encodes *where*, *how strongly*, and *in what direction* cultural priors act within the model’s internal geometry—functioning as a **semantic compass** through the latent manifold.<br>
 
-<img src="assets/belief_vector_field_healthy_static_annotated.png" width="900" height="1200" alt="3D Thermodynamics GIF" />
+<p align="center">
+  <a href="[https://pragyaai.github.io/ndna/belief_vector_field.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/belief_vector_field.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/belief_vector_field.gif))">
+    <img src="assets/Final_belief_vector_field.gif" width="1100" height="900" />
+  </a>
+  <br><em>Belied Vector Field Evolution across Layers</em>
+</p>
+
+<p align="center">
+  <img src="assets/belief_vector_field_healthy_static_annotated.png" width="900" height="1200" alt="Belief Vector Field" />
+</p>
 
 # Datasets Used
 
