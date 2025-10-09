@@ -2,11 +2,11 @@
   <img src="https://github.com/user-attachments/assets/e093b2ec-4918-4622-a3c0-7d86d8e98db3" alt="ndna_logo_v5.jpg" width="1600" />
 </p>
 
-# <p align="center"> Neural DNA: Latent Semantic Genome of Foundation Models </p>
+# <p align="center"> The Semantic Helix of Artificial Cognition </p>
 
 <div align="center">
   <a href="https://pragyaai.github.io/ndna/llm/ndna/" style="background:linear-gradient(135deg,#0078E7,#00C6FF);color:white;padding:10px 26px;border-radius:10px;text-decoration:none;margin:0 30px;box-shadow:0 4px 10px rgba(0,0,0,0.15);">🌐 Webpage</a>
-  <a href="https://www.youtube.com/@PragyaAI" style="background:linear-gradient(135deg,#FF0000,#FF4D4D);color:white;padding:10px 26px;border-radius:10px;text-decoration:none;margin:0 30px;box-shadow:0 4px 10px rgba(0,0,0,0.15);">🎥 YouTube</a>
+  <a href="https://www.youtube.com/playlist?list=PLaE3N7Ax00P93HC0jxZ-b6c4tnLkldPOJ" style="background:linear-gradient(135deg,#FF0000,#FF4D4D);color:white;padding:10px 26px;border-radius:10px;text-decoration:none;margin:0 30px;box-shadow:0 4px 10px rgba(0,0,0,0.15);">🎥 YouTube</a>
   <a href="https://arxiv.org/abs/2509.18216" style="background:linear-gradient(135deg,#333,#777);color:white;padding:10px 26px;border-radius:10px;text-decoration:none;margin:0 30px;box-shadow:0 4px 10px rgba(0,0,0,0.15);">📄 ArXiv</a>
 </div>
 
@@ -19,15 +19,13 @@ This is a cumulative measure of latent geometry, quantifying how a large languag
 
 **► 1. _Spectral Curvature_ ($$κ_{\ell}$$)**: Quantifies geometric properties of the parameter manifold <br><br>
 **► 2. _Thermodynamic Length_ ($$L_{\ell}$$)**: Measures information processing complexity via Fisher-Rao distances <br><br>
-**► 3. _Belief Vector Dynamics_**: Captures epistemic confidence and uncertainty propagation <br><br>
+**► 3. _Belief Vector Field_**: Captures epistemic confidence and uncertainty propagation <br><br>
 
-The **Spectral metrics (αℓ, κℓ)** capture geometry, **Thermodynamic length(Lℓ)** captures latent movement, and **Belief Vector norm** quantifies alignment strength of the model.
-
-# Mathematical Foundation:
+The **Spectral Curvature (κℓ)** capture geometry, **Thermodynamic length(Lℓ)** captures latent movement, and **Belief Vector Field** quantifies alignment strength of the model.
 
 ## **► 1. Spectral Curvature Analysis ($$κ_{\ell}$$):** <br>
 
-A ramp up of Power-Law exponent will increase the Latent Binding in higher decoder layers, signaling sharper representational semantics. Spectral curvature at layer $\ell$ is defined as:
+A ramp up of Power-Law exponent will increase the Latent Binding in higher decoder layers, signaling sharper representational semantics. Spectral Curvature at layer $\ell$ is defined as:
 
 $$
 \kappa_\ell := \big\| \Delta^2 h_\ell \big\| = \big\| h_{\ell+1} - 2 h_\ell + h_{\ell-1} \big\|
@@ -45,14 +43,12 @@ where $s$ parameterizes depth through the network. Discrete $\kappa_\ell$ provid
   <a href="[src="https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/spectral_curvature_llama_ndna_animation.gif"](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/spectral_curvature_llama_ndna_animation.gif)">
     <img src="assets/spectral_curvature_llama_ndna_animation.gif" width="1000" height="850" />
   </a>
-  <br><em>Spectral Curvature visualization</em>
 </p>
 
 <p align="center">
   <a href="[https://pragyaai.github.io/ndna/thermodynamic_length.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/spectral_curvature.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/spectral_curvature.gif))">
     <img src="assets/spectral_curvature.gif" width="1000" height="850" />
   </a>
-  <br><em>Spectral Curvature accross Transformers Layers</em>
 </p>
 
 ## **► 2. Thermodynamic length ($$L_{\ell}$$) Analysis** : <br> 
@@ -83,14 +79,12 @@ This formulation reveals that $$L_\ell$$ captures both the *average local effort
   <a href="[https://pragyaai.github.io/ndna/thermodynamics_interactive.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/Final_thermodynamic_length.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/Final_thermodynamic_length.gif))">
     <img src="assets/Final_thermodynamic_length.gif" width="1000" height="850" />
   </a>
-  <br><em>Thermodynamic Length visualization</em>
 </p>
 
 <p align="center">
   <a href="[https://pragyaai.github.io/ndna/thermodynamic_length.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/thermodynamic_length.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/thermodynamic_length.gif))">
     <img src="assets/thermodynamic_length.gif" width="1000" height="850" />
   </a>
-  <br><em>Thermodynamic Length accross Transformers Layers</em>
 </p>
 
 This formulation reveals that $$L_{\ell}$$ captures both the *average local effort* and its scaling with dataset size. Furthermore, in differential geometric terms, thermodynamic length can be written as a path energy:
@@ -104,21 +98,20 @@ where $$h_{\ell}$$ denotes latent trajectories at layer $$\ell$$, $$G_{\text{Fis
 
 It quantifies the epistemic work performed across transformer layers, calculated as the cumulative squared gradient norm of layerwise log-likelihoods. Higher values signal internal resistance–zones of significant restructuring, belief compression, or negotiation of conflicting priors. In culturally fine-tuned models, these peaks localize to upper decoder layers, indicating intense adaptation near output-generating blocks. Within the nDNA construct, **$$L_{\ell}$$** helps reveal latent epistemic effort that underlies surface-level behavior. This metric thus provides a nuanced window into where and how models internally allocate effort during learning and inference. <br><br>
 
-## **► 3. Belief Vector Calculation** : <br>
+## **► 3. Belief Vector Field Calculation** : <br>
 In **differential geometry** and **physics**, a *vector field* describes a directional force applied at each point of a space. Inspired by this, the **Belief Vector Field** models the *directional semantic force* that a specific culture or value system exerts on a model’s latent representations. It encodes *where*, *how strongly*, and *in what direction* cultural priors act within the model’s internal geometry—functioning as a **semantic compass** through the latent manifold.<br>
 
 <p align="center">
   <a href="[https://pragyaai.github.io/ndna/belief_vector_field.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/belief_vector_field.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/belief_vector_field.gif))">
     <img src="assets/Final_belief_vector_field.gif" width="1100" height="900" />
   </a>
-  <br><em>Belied Vector Field Evolution across Layers</em>
 </p>
 
 <p align="center">
   <img src="assets/belief_vector_field_healthy_static_annotated.png" width="900" height="1200" alt="Belief Vector Field" />
 </p>
 
-# Overall behaviour 
+# The Fingerprint
 
 <img width="1276" height="663" alt="image" src="https://github.com/user-attachments/assets/a4be9afd-cac8-4aba-ae3a-10216dacb4a0" />
 
@@ -126,15 +119,14 @@ In **differential geometry** and **physics**, a *vector field* describes a direc
   <a href="[https://pragyaai.github.io/ndna/thermodynamic_length.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/ndna_refined_story.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/ndna/ndna_refined_story.gif))">
     <img src="assets/ndna_refined_story.gif" width="1200" height="950" />
   </a>
-  <br><em>Overall Behaviour of all these metrics in modern LLMs</em>
 </p>
 
 
-# Datasets Used
+# Datasets
 
-For Spectral Culvature, Thermodynamic length, and Belief Vector calculation, we have used **[SQuAD 2.0](https://huggingface.co/datasets/rajpurkar/squad_v2)** for our experiments and analysis of these metrics.
+For Spectral Culvature, Thermodynamic length, and Belief Vector Field calculation, we have used **[SQuAD 2.0](https://huggingface.co/datasets/rajpurkar/squad_v2)** for our experiments and analysis of these metrics.
 
-# Models Evaluated
+# Models
 
 Throughout our work, we used the following foundational LLMs to prove our hypothesis:
 
