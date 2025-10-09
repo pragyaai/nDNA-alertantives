@@ -2,9 +2,7 @@
   <img src="https://github.com/user-attachments/assets/e093b2ec-4918-4622-a3c0-7d86d8e98db3" alt="ndna_logo_v5.jpg" width="1600" />
 </p>
 
-# <p align="center"> The Semantic Helix of Artificial Cognition </p>
-
-# [![Webpage](https://img.shields.io/badge/🌐_Webpage-0078E7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pragyaai.github.io/ndna/llm/ndna/)   [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLaE3N7Ax00P93HC0jxZ-b6c4tnLkldPOJ)   [![ArXiv](https://img.shields.io/badge/ArXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.18216)
+# <p align="center"> The Semantic Helix of Artificial Cognition <div align="center"> [![Webpage](https://img.shields.io/badge/🌐_Webpage-0078E7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pragyaai.github.io/ndna/llm/ndna/)   [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLaE3N7Ax00P93HC0jxZ-b6c4tnLkldPOJ)   [![ArXiv](https://img.shields.io/badge/ArXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.18216) </div> </p>
 
 # nDNA: Unified Epistemic Inheritance Measure
 
