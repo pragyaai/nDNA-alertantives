@@ -163,7 +163,6 @@ Throughout our work, we used the following foundational LLMs to prove our hypoth
   <a href="[https://pragyaai.github.io/ndna/belief_vector_field.html]([https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/gifs/15_llms/all.gif](https://cdn.jsdelivr.net/gh/pragyaai/cdn-assets/assets/gifs/15_llms/all.gif))">
     <img src="assets/all_LLms.gif" width="1200" height="1000" />
   </a>
-  <br><em>Belied Vector Field Evolution across Layers</em>
 </p>
 
 ---
