@@ -10,7 +10,6 @@
   <a href="https://arxiv.org/abs/2509.18216" style="background:linear-gradient(135deg,#333,#777);color:white;padding:10px 26px;border-radius:10px;text-decoration:none;margin:0 30px;box-shadow:0 4px 10px rgba(0,0,0,0.15);">📄 ArXiv</a>
 </div>
 
-
 # nDNA: Unified Epistemic Inheritance Measure
 
 <img width="1100" height="950" alt="image" src="https://github.com/user-attachments/assets/ea0a1618-d6f9-4d77-8c14-ffd8ea31c546" />
@@ -23,7 +22,7 @@ This is a cumulative measure of latent geometry, quantifying how a large languag
 
 The **Spectral Curvature (κℓ)** capture geometry, **Thermodynamic length(Lℓ)** captures latent movement, and **Belief Vector Field** quantifies alignment strength of the model.
 
-## **► 1. Spectral Curvature Analysis ($$κ_{\ell}$$):** <br>
+## **► 1. Spectral Curvature ($$κ_{\ell}$$):** <br>
 
 A ramp up of Power-Law exponent will increase the Latent Binding in higher decoder layers, signaling sharper representational semantics. Spectral Curvature at layer $\ell$ is defined as:
 
@@ -51,7 +50,7 @@ where $s$ parameterizes depth through the network. Discrete $\kappa_\ell$ provid
   </a>
 </p>
 
-## **► 2. Thermodynamic length ($$L_{\ell}$$) Analysis** : <br> 
+## **► 2. Thermodynamic length ($$L_{\ell}$$) ** : <br> 
 
 It is defined by Fisher geometry that quantifies semantic effort needed to move a token from layer($$\ell$$) to layer ($$\ell$$+1). Thermodynamic length offers a window onto the model’s "latent energy budget" — illuminating how internal belief states reshape to meet complexity, constraint, and context.
 
