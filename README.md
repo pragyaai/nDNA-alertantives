@@ -4,17 +4,7 @@
 
 # <p align="center"> The Semantic Helix of Artificial Cognition </p>
 
-<div align="center" style="white-space:nowrap;">
-  <a href="https://pragyaai.github.io/ndna/llm/ndna/" target="_blank" rel="noopener noreferrer" style="background:linear-gradient(135deg,#0078E7,#00C6FF);color:white;padding:12px 28px;border-radius:12px;text-decoration:none;margin:0 20px;font-weight:600;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:all 0.3s ease;display:inline-block;">
-  <span style="text-decoration:none;"> 🌐 Webpage  </span>
-  </a>
-  <a href="https://arxiv.org/abs/2509.18216" target="_blank" rel="noopener noreferrer" style="background:linear-gradient(135deg,#333,#777);color:white;padding:12px 28px;border-radius:12px;text-decoration:none;margin:0 20px;font-weight:600;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:all 0.3s ease;display:inline-block;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/ArXiv_logo_2022.svg" alt="ArXiv" width="60" style="vertical-align:middle;">
-  </a>
-  <a href="https://www.youtube.com/playlist?list=PLaE3N7Ax00P93HC0jxZ-b6c4tnLkldPOJ" target="_blank" rel="noopener noreferrer" style="background:#FF0000;color:white;padding:12px 28px;border-radius:12px;text-decoration:none;margin:0 20px;font-weight:600;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:all 0.3s ease;display:inline-flex;align-items:center;gap:8px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube" width="70" style="vertical-align:middle;"> 
-  </a>
-</div>
+# [![Webpage](https://img.shields.io/badge/🌐_Webpage-0078E7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pragyaai.github.io/ndna/llm/ndna/)   [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLaE3N7Ax00P93HC0jxZ-b6c4tnLkldPOJ)   [![ArXiv](https://img.shields.io/badge/ArXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.18216)
 
 # nDNA: Unified Epistemic Inheritance Measure
 
