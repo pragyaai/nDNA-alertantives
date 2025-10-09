@@ -4,10 +4,16 @@
 
 # <p align="center"> The Semantic Helix of Artificial Cognition </p>
 
-<div align="center">
-  <a href="https://pragyaai.github.io/ndna/llm/ndna/" style="background:linear-gradient(135deg,#0078E7,#00C6FF);color:white;padding:10px 26px;border-radius:10px;text-decoration:none;margin:0 30px;box-shadow:0 4px 10px rgba(0,0,0,0.15);">🌐 Webpage</a>
-  <a href="https://www.youtube.com/playlist?list=PLaE3N7Ax00P93HC0jxZ-b6c4tnLkldPOJ" style="background:linear-gradient(135deg,#FF0000,#FF4D4D);color:white;padding:10px 26px;border-radius:10px;text-decoration:none;margin:0 30px;box-shadow:0 4px 10px rgba(0,0,0,0.15);">🎥 YouTube</a>
-  <a href="https://arxiv.org/abs/2509.18216" style="background:linear-gradient(135deg,#333,#777);color:white;padding:10px 26px;border-radius:10px;text-decoration:none;margin:0 30px;box-shadow:0 4px 10px rgba(0,0,0,0.15);">📄 ArXiv</a>
+<div align="center" style="white-space:nowrap;">
+  <a href="https://pragyaai.github.io/ndna/llm/ndna/" target="_blank" rel="noopener noreferrer" style="background:linear-gradient(135deg,#0078E7,#00C6FF);color:white;padding:12px 28px;border-radius:12px;text-decoration:none;margin:0 20px;font-weight:600;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:all 0.3s ease;display:inline-block;">
+  <span style="text-decoration:none;"> 🌐 Webpage  </span>
+  </a>
+  <a href="https://arxiv.org/abs/2509.18216" target="_blank" rel="noopener noreferrer" style="background:linear-gradient(135deg,#333,#777);color:white;padding:12px 28px;border-radius:12px;text-decoration:none;margin:0 20px;font-weight:600;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:all 0.3s ease;display:inline-block;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/ArXiv_logo_2022.svg" alt="ArXiv" width="60" style="vertical-align:middle;">
+  </a>
+  <a href="https://www.youtube.com/playlist?list=PLaE3N7Ax00P93HC0jxZ-b6c4tnLkldPOJ" target="_blank" rel="noopener noreferrer" style="background:#FF0000;color:white;padding:12px 28px;border-radius:12px;text-decoration:none;margin:0 20px;font-weight:600;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:all 0.3s ease;display:inline-flex;align-items:center;gap:8px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube" width="70" style="vertical-align:middle;"> 
+  </a>
 </div>
 
 # nDNA: Unified Epistemic Inheritance Measure
@@ -22,7 +28,7 @@ This is a cumulative measure of latent geometry, quantifying how a large languag
 
 The **Spectral Curvature (κℓ)** capture geometry, **Thermodynamic length(Lℓ)** captures latent movement, and **Belief Vector Field** quantifies alignment strength of the model.
 
-## **► 1. Spectral Curvature ($$κ_{\ell}$$):** <br>
+## ► 1. Spectral Curvature ($$κ_{\ell}$$): <br>
 
 A ramp up of Power-Law exponent will increase the Latent Binding in higher decoder layers, signaling sharper representational semantics. Spectral Curvature at layer $\ell$ is defined as:
 
@@ -50,7 +56,7 @@ where $s$ parameterizes depth through the network. Discrete $\kappa_\ell$ provid
   </a>
 </p>
 
-## **► 2. Thermodynamic length ($$L_{\ell}$$) ** : <br> 
+## ► 2. Thermodynamic length ($$L_{\ell}$$) : <br> 
 
 It is defined by Fisher geometry that quantifies semantic effort needed to move a token from layer($$\ell$$) to layer ($$\ell$$+1). Thermodynamic length offers a window onto the model’s "latent energy budget" — illuminating how internal belief states reshape to meet complexity, constraint, and context.
 
@@ -97,7 +103,7 @@ where $$h_{\ell}$$ denotes latent trajectories at layer $$\ell$$, $$G_{\text{Fis
 
 It quantifies the epistemic work performed across transformer layers, calculated as the cumulative squared gradient norm of layerwise log-likelihoods. Higher values signal internal resistance–zones of significant restructuring, belief compression, or negotiation of conflicting priors. In culturally fine-tuned models, these peaks localize to upper decoder layers, indicating intense adaptation near output-generating blocks. Within the nDNA construct, **$$L_{\ell}$$** helps reveal latent epistemic effort that underlies surface-level behavior. This metric thus provides a nuanced window into where and how models internally allocate effort during learning and inference. <br><br>
 
-## **► 3. Belief Vector Field ** : <br>
+## ► 3. Belief Vector Field : <br>
 In **differential geometry** and **physics**, a *vector field* describes a directional force applied at each point of a space. Inspired by this, the **Belief Vector Field** models the *directional semantic force* that a specific culture or value system exerts on a model’s latent representations. It encodes *where*, *how strongly*, and *in what direction* cultural priors act within the model’s internal geometry—functioning as a **semantic compass** through the latent manifold.<br>
 
 <p align="center">
@@ -123,7 +129,8 @@ In **differential geometry** and **physics**, a *vector field* describes a direc
 
 # Datasets
 
-For Spectral Culvature, Thermodynamic length, and Belief Vector Field calculation, we have used **[SQuAD 2.0](https://huggingface.co/datasets/rajpurkar/squad_v2)** for our experiments and analysis of these metrics.
+► For **Spectral Culvature** and **Thermodynamic length** we have used **[SQuAD 2.0](https://huggingface.co/datasets/rajpurkar/squad_v2)** <br>
+► For **Belief Vector Field**, we have used less concrete words ..... 
 
 # Models
 
