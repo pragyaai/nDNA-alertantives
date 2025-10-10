@@ -1,4 +1,4 @@
-# Spectral Curvature, Thermodynamic Length, and Belief Vector Fields (Method 1)
+# Spectral Curvature, Thermodynamic Length, and Belief Vector Fields 
 
 This repository accompanies a set of experiments that measure geometric properties of hidden-state trajectories inside causal language models. The code computes spectral curvature, thermodynamic length, and belief vector fields in a way that is invariant to arbitrary orthogonal changes of basis across layers. All three quantities are built on a common scaffold that aligns neighboring layers via an orthogonal Procrustes transport, then measures displacements in an intrinsic, whitened metric. Plots are rendered directly with `matplotlib` and are not saved to disk.
 
