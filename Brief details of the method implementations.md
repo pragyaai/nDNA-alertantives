@@ -1,4 +1,4 @@
-# Spectral Curvature, Thermodynamic Length, and Belief Vector Fields (Method 5) — DialoGPT / GPT-2 / TinyLlama
+# Spectral Curvature, Thermodynamic Length, and Belief Vector Fields
 
 This repository contains an end-to-end Colab-ready notebook that measures three geometry-of-inference diagnostics inside transformer language models: spectral curvature along depth on the Fisher–Rao sphere, thermodynamic length computed in two complementary ways, and belief vector fields that describe how training signals would nudge the model’s next-token beliefs at each layer. The implementation runs on decoder-only architectures and has been exercised on `microsoft/DialoGPT-medium`, `gpt2`, and `TinyLlama/TinyLlama-1.1B-Chat-v1.0`. All components are written with attention to numerical stability and GPU efficiency, and the code paths are adapted where GPT-2-style blocks differ from LLaMA-style blocks.
 
