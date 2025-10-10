@@ -118,7 +118,7 @@ In **differential geometry** and **physics**, a *vector field* describes a direc
 # Datasets
 
 ► For **Spectral Culvature** and **Thermodynamic length** we have used **[SQuAD 2.0](https://huggingface.co/datasets/rajpurkar/squad_v2)** <br>
-► For **Belief Vector Field**, we have used less concrete words [Dataset Brysbaert 2014 Concreteness](https://norare.clld.org/contributions/Brysbaert-2014-Concreteness)
+► For **Belief Vector Field**, we have used less concrete words [Dataset Brysbaert 2014 Concreteness](https://norare.clld.org/contributions/Brysbaert-2014-Concreteness)    [[1](https://norare.clld.org/contributions/Brysbaert-2014-Concreteness)   [2](https://link.springer.com/article/10.3758/s13428-013-0403-5)]
 
 # Models
 
@@ -249,4 +249,24 @@ If you use nDNA in your research, please cite:
   archivePrefix={arXiv},
   primaryClass={cs.AI},
   url={https://arxiv.org/abs/2509.18216}
+}
+
+[1] @article{10.3758/s13428-013-0403-5,
+  author = {Brysbaert, M. and Warriner, A. B. and Kuperman, V.},
+  title = {Concreteness ratings for 40 thousand generally known english word lemmas},
+  journal = {Behavior Research Methods},
+  year = {2013},
+  volume = {46},
+  issue = {3},
+  pages = {904-911},
+  doi = {10.3758/s13428-013-0403-5}
+}
+[2] @article{Brysbaert2014,
+  author  = {Brysbaert, Marc and Warriner, Amy Beth and Kuperman, Victor},
+  journal = {Behavior Research Methods},
+  number  = {3},
+  pages   = {904–-911},
+  title   = {Concreteness ratings for 40 thousand generally known English word lemmas},
+  volume  = {46},
+  year    = {2013}
 }
