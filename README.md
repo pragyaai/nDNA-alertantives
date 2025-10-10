@@ -4,7 +4,7 @@
 
 # <p align="center" target="_blank"> The Semantic Helix of Artificial Cognition <div align="center" target="_blank"> [![Webpage](https://img.shields.io/badge/🌐_Webpage-0078E7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pragyaai.github.io/ndna/llm/ndna/)   [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLaE3N7Ax00P93HC0jxZ-b6c4tnLkldPOJ)   [![ArXiv](https://img.shields.io/badge/ArXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.18216) </div> </p>
 
-# nDNA: Unified Epistemic Inheritance Measure
+# nDNA
 
 <img width="1100" height="950" alt="image" src="https://github.com/user-attachments/assets/ea0a1618-d6f9-4d77-8c14-ffd8ea31c546" />
 
