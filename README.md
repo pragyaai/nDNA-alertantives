@@ -117,7 +117,7 @@ In **differential geometry** and **physics**, a *vector field* describes a direc
 
 # Datasets
 
-► For **Spectral Culvature** and **Thermodynamic length** we have used **[SQuAD 2.0](https://huggingface.co/datasets/rajpurkar/squad_v2)** <br>
+► For **Spectral Culvature** and **Thermodynamic length** we have used **[SQuAD 2.0](https://huggingface.co/datasets/rajpurkar/squad_v2)** <br><br>
 ► For **Belief Vector Field**, we have used less concrete words [Dataset Brysbaert 2014 Concreteness](https://norare.clld.org/contributions/Brysbaert-2014-Concreteness)    [[1](https://norare.clld.org/contributions/Brysbaert-2014-Concreteness)   [2](https://link.springer.com/article/10.3758/s13428-013-0403-5)]
 
 # Models
