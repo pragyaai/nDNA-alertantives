@@ -153,6 +153,87 @@ Throughout our work, we used the following foundational LLMs to prove our hypoth
   </a>
 </p>
 
+# Installation Instructions
+
+Transformers works with [Python 3.9+](https://www.python.org/downloads/), and [PyTorch 2.1+](https://pytorch.org/get-started/locally/) <br>
+
+Create and activate a virtual environment with **virtualenv(venv)** or **uv**, a fast Rust-based Python package and project manager.<br>
+ 
+```py
+# venv
+python -m venv .my-env
+source .my-env/bin/activate
+# uv
+uv venv .my-env
+source .my-env/bin/activate
+```
+
+Install Transformers in your virtual environment.
+
+```py
+# pip
+pip install "transformers[torch]"
+
+# uv
+uv pip install "transformers[torch]"
+```
+
+```py
+import torch
+from transformers import pipeline
+```
+
+# Install from source
+
+```shell
+git clone [https://github.com/triton-lang/triton.git](https://github.com/pragyaai/nDNA-v1.git)
+cd triton
+
+pip install -r python/requirements.txt # build-time dependencies
+pip install -e .
+```
+
+Or with a virtualenv:
+
+```shell
+git clone [https://github.com/triton-lang/triton.git](https://github.com/pragyaai/nDNA-v1.git)
+cd nDNA-v1
+
+python -m venv .venv --prompt nDNA-v1
+source .venv/bin/activate
+
+pip install -r python/requirements.txt # build-time dependencies
+pip install -e .
+
+pip install torch>=2.1 "transformers[torch]" matplotlib datasets pandas seaborn numpy tqdm
+```
+Or from the project requirements file:
+
+```shell
+pip install -r requirements.txt
+```
+
+Verify your setup
+```shell
+python -m nDNA-v1.test_install
+```
+
+(Optional) If you plan to modify or extend the codebase, install in editable developer mode.
+```shell
+git clone https://github.com/pragyaai/nDNA-v1.git
+cd nDNA-v1
+
+# Create virtual environment
+python -m venv .venv --prompt nDNA-v1
+source .venv/bin/activate
+
+# Install build-time and runtime dependencies
+pip install -r requirements.txt
+pip install -e .
+```
+
+If installation succeeded, you’ll see following message:
+##### nDNA environment ready and components loaded successfully.
 ---
 
 ## Citation
